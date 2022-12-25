@@ -18,12 +18,17 @@ In package.json in scripts,it will be like
  Note:- You must run apache and mysql server in xampp i order to run backend successfully in your system
  
  To install necessary packages,you can write
+ 
  'npm i' or 'npm install'
+ 
  This will install node_module folder with necessary packages.
+ 
+ 
  However,you also need to install some more packages and that are stated below along with their commands to install:
- "express-fileupload": "npm i express-fileupload"
- "express-session": "npm i express-session"
- "mysql":"npm i mysql" 
+ 
+     "express-fileupload": "npm i express-fileupload",
+     "express-session": "npm i express-session",
+     "mysql":"npm i mysql", 
   Finally the dependencies object in package.json should look like this:-
   
   "dependencies": {
