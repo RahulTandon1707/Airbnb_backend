@@ -12,8 +12,8 @@ In package.json in scripts,it will be like
           "server": "nodemon ./bin/www"
       }
   
- Then cmd to run your server becomes
- 'npm run server'
+    Then cmd to run your server becomes
+         'npm run server'
  
          Note:- You must run apache and mysql server in xampp i order to run backend successfully in your system
  
